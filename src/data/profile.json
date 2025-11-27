@@ -1,99 +1,114 @@
 {
-  "name": "Kennedy Rose",
-  "bio": "I am a passionate software developer with a strong interest in solving real-world problems.",
-  "resume": "/SampleResume.pdf",
-
+  "name": "Nuwani Fonseka ",
+  "bio": "Software Engineering undergraduate",
+  "resume": "/Nuwani_cv.pdf",
   "about": {
-    "headline": "I’m a final year Software Engineering undergraduate passionate about web development, AI, and open-source contributions.",
+    "headline": "I'm a final year Software Engineering undergraduate who enjoys building clean, user-focused digital solutions. I’m adaptable, detail-driven, and always eager to learn and improve.",
     "highlights": [
       {
         "title": "Current Role",
-        "content": "Frontend Developer Intern at XYZ"
+        "content": "Software Developer Intern"
       },
       {
         "title": "Education",
-        "content": "BSc (Hons) Software Engineering\nABC University"
+        "content": "BSc (Hons) Software Engineering\n @SLIIT Uni"
       },
-      { "title": "Languages", "content": "Sinhala (Native)\nEnglish (Fluent)" },
-      { "title": "Location", "content": "Colombo, Sri Lanka" }
+      {
+        "title": "Languages",
+        "content": "Sinhala (Native)\nEnglish (Fluent)"
+      },
+      {
+        "title": "Location",
+        "content": "Negombo, Sri Lanka"
+      }
     ]
   },
-
   "projects": [
     {
-      "title": "Project One",
-      "image": "/project1.jpg",
+      "title": "EV charging station booking system",
+      "image": "/project1.png",
       "desc": "React-based web application with authentication and API integration.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/y4-systems/ev-station-booking-system-web",
+      "demo": "https://ev-station-booking-system-web.vercel.app/login"
     },
     {
       "title": "Project Two",
       "image": "/project2.jpg",
       "desc": "MERN stack project with dashboard, analytics, and MongoDB integration.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Three",
       "image": "/project3.png",
       "desc": "Mobile-first Flutter application with Firebase backend and push notifications.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Four",
       "image": "/project2.jpg",
       "desc": "E-commerce Flutter app with Firebase backend and secure payments.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Five",
       "image": "/project3.png",
       "desc": "Task manager Flutter app with push notifications and offline support.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Six",
-      "image": "/project1.jpg",
+      "image": "/project1.png",
       "desc": "Portfolio website built with React and Tailwind CSS.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Seven",
       "image": "/project2.jpg",
       "desc": "Blog platform built with Next.js and Markdown integration.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Eight",
       "image": "/project3.png",
       "desc": "Chat application using React, Node.js, and WebSocket.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Nine",
       "image": "/project1.jpg",
       "desc": "Weather forecast app with real-time API integration.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Ten",
       "image": "/project2.jpg",
       "desc": "Social media app prototype with user authentication and chat.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Eleven",
       "image": "/project3.png",
       "desc": "Fitness tracking app with charts, goals, and reminders.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     },
     {
       "title": "Project Twelve",
       "image": "/project1.jpg",
       "desc": "Travel booking web app with maps and itinerary planner.",
-      "link": "https://github.com/yourusername/weather-app"
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://your-demo-link.com"
     }
   ],
-
   "skills": [
     "React.js",
     "Tailwind CSS",
@@ -107,26 +122,77 @@
     "Java",
     "Kotlin"
   ],
-
+  "activities": [
+    {
+      "icon": "🏢",
+      "title": "IFS Industry Visit",
+      "desc": "Industry visit to IFS R&D International, Colombo.",
+      "images": [
+        "/events/ifs1.jpg",
+        "/events/ifs2.jpg",
+        "/events/ifs3.jpg",
+        "/events/IFS.png",
+        "/events/ifs4.jpg",
+        "/events/ifs5.jpg"
+      ]
+    },
+    {
+      "icon": "💡",
+      "title": "Perituza Workshop",
+      "desc": "Workshop on innovation, careers, digital transformation.",
+      "images": [
+        "/events/perituza1.jpg",
+        "/events/perituza2.jpg",
+        "/events/perituza3.jpg"
+      ]
+    },
+    {
+      "icon": "🚀",
+      "title": "Postman GenAI + API Tour 2025",
+      "desc": "Explored modern API innovation with Postman.",
+      "images": [
+        "/events/postman1.jpeg",
+        "/events/postman2.jpeg",
+        "/events/postman3.png",
+        "/events/postman4.png"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Java (Basic) – HackerRank",
+      "image": "/sample_cert.jpg",
+      "file": "/sample_cert.jpg"
+    },
+    {
+      "title": "JavaScript (Basic) – HackerRank",
+      "image": "/sample_cert.jpg",
+      "file": "/sample_cert.jpg"
+    },
+    {
+      "title": "UX Design – Google (Coursera)",
+      "image": "/sample_cert.jpg",
+      "file": "/sample_cert.jpg"
+    }
+  ],
   "contact": {
-    "email": "youremail@gmail.com",
-    "phone": "+1 234 567 8900",
+    "email": "nuwaniprasansa@gmail.com",
+    "phone": "+94 770758438",
     "location": {
-      "label": "City, Country",
-      "mapLink": "https://www.google.com/maps"
+      "label": "Negombo, Sri Lanka",
+      "mapLink": "https://maps.app.goo.gl/bVuJEQtecNo7m8yW7"
     },
     "socials": {
-      "linkedin": "https://linkedin.com/in/yourprofile",
-      "instagram": "https://instagram.com/yourprofile",
+      "linkedin": "https://www.linkedin.com/in/nuwani-fonseka-5a87ba234/",
+      "instagram": "https://www.instagram.com/itsnuviii?igsh=aW1vNzBza2lpNHZm&utm_source=qr",
       "facebook": "https://facebook.com/yourprofile",
-      "github": "https://github.com/yourprofile",
+      "github": "https://github.com/NuwaniFonseka",
       "tiktok": "https://tiktok.com/@yourprofile",
       "youtube": "https://youtube.com/yourchannel"
     }
   },
-
   "footer": {
-    "name": "Your Details",
+    "name": "Nuwani Fonseka ",
     "text": "All rights reserved."
   }
 }

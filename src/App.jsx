@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import TechActivities from "./components/TechActivities";
+import Certifications from "./components/Certifications";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -50,6 +52,8 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
+        <TechActivities />
+        <Certifications />
         <Contact />
         <Footer />
 

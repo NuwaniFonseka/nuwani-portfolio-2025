@@ -13,7 +13,6 @@ const Projects = () => {
 
   const totalPages = Math.ceil(profile.projects.length / projectsPerPage);
 
-  // Intersection Observer for heading
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -37,11 +36,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section
-      id="projects"
-      className="relative text-white px-6 py-24 scroll-mt-24"
-    >
-      {/* Heading with fade-in animation */}
+    <section id="projects" className="relative text-white px-6 py-24 scroll-mt-24">
       <h2
         ref={headingRef}
         className={`text-4xl md:text-5xl font-bold mb-12 text-center relative z-10 transition-all duration-1000 ${
@@ -57,27 +52,60 @@ const Projects = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto relative z-10">
         {currentProjects.map((project, idx) => (
-          <a
+          <div
             key={idx}
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
             className="group bg-white/10 p-6 rounded-xl shadow-lg border border-white/10 hover:border-primary/60 transition-transform duration-500 transform hover:scale-105 hover:-translate-y-2"
           >
             <h3 className="text-2xl font-bold mb-4 text-center text-primary group-hover:text-accent transition-colors">
               {project.title}
             </h3>
+
             <img
               src={project.image}
               alt={project.title}
               className="w-full h-[200px] object-cover rounded-lg"
             />
+
             <p className="text-sm text-gray-200 mt-3">{project.desc}</p>
-          </a>
+
+            {/* NEW BUTTONS */}
+           <div className="mt-5 flex justify-between gap-3">
+  {project.demo && (
+    <a
+      href={project.demo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1 text-center px-4 py-2 rounded-lg font-medium
+                 text-white border border-white/20 bg-white/5
+                 backdrop-blur-md shadow-sm
+                 transition-all duration-300
+                 hover:border-primary hover:text-primary hover:shadow-primary/40 hover:scale-105"
+    >
+      Live Demo
+    </a>
+  )}
+
+  {project.github && (
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1 text-center px-4 py-2 rounded-lg font-medium
+                 text-white border border-white/20 bg-white/5
+                 backdrop-blur-md shadow-sm
+                 transition-all duration-300
+                 hover:border-primary hover:text-primary hover:shadow-primary/40 hover:scale-105"
+    >
+      View Code
+    </a>
+  )}
+</div>
+
+          </div>
         ))}
       </div>
 
-      {/* Pagination controls */}
+      {/* Pagination */}
       <div className="flex justify-center gap-4 mt-10 relative z-10">
         <button
           disabled={currentPage === 1}
@@ -86,9 +114,9 @@ const Projects = () => {
         >
           Prev
         </button>
-        <span className="px-4 py-2">
-          {currentPage} / {totalPages}
-        </span>
+
+        <span className="px-4 py-2">{currentPage} / {totalPages}</span>
+
         <button
           disabled={currentPage === totalPages}
           onClick={() => setCurrentPage(currentPage + 1)}
