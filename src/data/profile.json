@@ -1,0 +1,132 @@
+{
+  "name": "Kennedy Rose",
+  "bio": "I am a passionate software developer with a strong interest in solving real-world problems.",
+  "resume": "/SampleResume.pdf",
+
+  "about": {
+    "headline": "I’m a final year Software Engineering undergraduate passionate about web development, AI, and open-source contributions.",
+    "highlights": [
+      {
+        "title": "Current Role",
+        "content": "Frontend Developer Intern at XYZ"
+      },
+      {
+        "title": "Education",
+        "content": "BSc (Hons) Software Engineering\nABC University"
+      },
+      { "title": "Languages", "content": "Sinhala (Native)\nEnglish (Fluent)" },
+      { "title": "Location", "content": "Colombo, Sri Lanka" }
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "Project One",
+      "image": "/project1.jpg",
+      "desc": "React-based web application with authentication and API integration.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Two",
+      "image": "/project2.jpg",
+      "desc": "MERN stack project with dashboard, analytics, and MongoDB integration.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Three",
+      "image": "/project3.png",
+      "desc": "Mobile-first Flutter application with Firebase backend and push notifications.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Four",
+      "image": "/project2.jpg",
+      "desc": "E-commerce Flutter app with Firebase backend and secure payments.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Five",
+      "image": "/project3.png",
+      "desc": "Task manager Flutter app with push notifications and offline support.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Six",
+      "image": "/project1.jpg",
+      "desc": "Portfolio website built with React and Tailwind CSS.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Seven",
+      "image": "/project2.jpg",
+      "desc": "Blog platform built with Next.js and Markdown integration.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Eight",
+      "image": "/project3.png",
+      "desc": "Chat application using React, Node.js, and WebSocket.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Nine",
+      "image": "/project1.jpg",
+      "desc": "Weather forecast app with real-time API integration.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Ten",
+      "image": "/project2.jpg",
+      "desc": "Social media app prototype with user authentication and chat.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Eleven",
+      "image": "/project3.png",
+      "desc": "Fitness tracking app with charts, goals, and reminders.",
+      "link": "https://github.com/yourusername/weather-app"
+    },
+    {
+      "title": "Project Twelve",
+      "image": "/project1.jpg",
+      "desc": "Travel booking web app with maps and itinerary planner.",
+      "link": "https://github.com/yourusername/weather-app"
+    }
+  ],
+
+  "skills": [
+    "React.js",
+    "Tailwind CSS",
+    "HTML / CSS",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "SQL / MySQL",
+    "JavaScript",
+    "Java",
+    "Kotlin"
+  ],
+
+  "contact": {
+    "email": "youremail@gmail.com",
+    "phone": "+1 234 567 8900",
+    "location": {
+      "label": "City, Country",
+      "mapLink": "https://www.google.com/maps"
+    },
+    "socials": {
+      "linkedin": "https://linkedin.com/in/yourprofile",
+      "instagram": "https://instagram.com/yourprofile",
+      "facebook": "https://facebook.com/yourprofile",
+      "github": "https://github.com/yourprofile",
+      "tiktok": "https://tiktok.com/@yourprofile",
+      "youtube": "https://youtube.com/yourchannel"
+    }
+  },
+
+  "footer": {
+    "name": "Your Details",
+    "text": "All rights reserved."
+  }
+}
