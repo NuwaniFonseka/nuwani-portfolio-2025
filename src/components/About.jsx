@@ -1,9 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import profile from "../data/profile.json";
+import useScrollTrigger from "../hooks/useScrollTrigger";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
   const headingRef = useRef(null);
+
+  // Scroll trigger for highlights
+  const [highlightsRef, highlightsVisible] = useScrollTrigger(0.1);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -38,12 +42,11 @@ const About = () => {
         {/* Title with fade-in-up */}
         <h2
           ref={headingRef}
-          className={`text-4xl md:text-5xl font-bold text-center transition-all duration-1000 ${
-            isVisible ? "animate-fade-in-up opacity-100" : "opacity-0"
-          }`}
+          className={`section-heading transition-all duration-1000 ${isVisible ? "animate-fade-in-up opacity-100" : "opacity-0"
+            }`}
         >
           About{" "}
-          <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <span className="gradient-text">
             Me
           </span>
         </h2>
@@ -53,14 +56,18 @@ const About = () => {
           {profile.about.headline}
         </p>
 
-        {/* Quick Highlights */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        {/* Quick Highlights with scroll-triggered zoom animation */}
+        <div
+          ref={highlightsRef}
+          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 stagger-zoom ${highlightsVisible ? 'visible' : ''}`}
+        >
           {profile.about.highlights.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white/10 p-6 rounded-xl shadow-lg text-center border border-white/10 hover:border-primary transition-all"
+              className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-lg text-center border border-white/10 
+                         hover-lift-smooth hover-glow hover-tilt transition-all duration-700"
             >
-              <h3 className="text-primary font-bold mb-2">{item.title}</h3>
+              <h3 className="text-cyan font-bold mb-2 transition-all duration-500">{item.title}</h3>
               <p className="text-gray-200 text-sm whitespace-pre-line">
                 {item.content}
               </p>

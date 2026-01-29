@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import TechActivities from "./components/TechActivities";
 import Certifications from "./components/Certifications";
+import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,14 +37,24 @@ const App = () => {
 
   return (
     <div className="relative min-h-screen text-white">
-      {/* Fixed background layer */}
-      <div
-        className="fixed inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/galaxy-bg.png')" }}
-      ></div>
+      {/* Custom Cursor with ring + dot + trailing points */}
+      <CustomCursor
+        color="#ffffff"
+        ringColor="rgba(96, 245, 255, 0.9)"
+        points={7}
+        ringSize={54}
+        pointSize={4}
+      />
 
-      {/* Dark overlay on top of bg */}
-      <div className="fixed inset-0 bg-black/70"></div>
+      {/* Background - Teal on left + blue/purple on right*/}
+      <div className="fixed inset-0 bg-[#050816]">
+        <div className="absolute inset-0 opacity-50 pointer-events-none">
+          {/* Teal/cyan glow on left */}
+          <div className="absolute top-40 left-10 w-[360px] h-[360px] bg-[#2be4dc] blur-[150px] rounded-full" />
+          {/* Blue/purple orb on top right */}
+          <div className="absolute top-20 right-40 w-[400px] h-[400px] bg-[#5f3df7] blur-[140px] rounded-full" />
+        </div>
+      </div>
 
       {/* Scrollable content */}
       <div className="relative z-10">
@@ -61,9 +72,9 @@ const App = () => {
         <div className="fixed bottom-8 right-8 z-50">
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="bg-gradient-to-r from-primary to-accent text-white p-4 rounded-full 
-                       shadow-2xl hover:shadow-primary/50 transform hover:scale-110 
-                       transition-all duration-300 animate-bounce group"
+            className="bg-white/10 backdrop-blur-md border border-cyan/30 text-cyan p-4 rounded-full 
+                       shadow-lg hover:shadow-cyan/50 transform hover:scale-110 hover:-translate-y-1
+                       transition-all duration-300 btn-glow group"
           >
             <svg
               className="w-6 h-6 group-hover:animate-pulse"

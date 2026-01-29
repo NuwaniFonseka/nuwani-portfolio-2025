@@ -6,10 +6,10 @@ const Header = ({ activeSection }) => {
   const navItems = ["Home", "About", "Projects", "Skills", "Contact"];
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-black/80 backdrop-blur-lg px-6 py-4 z-50 shadow-2xl border-b border-gray-800/50 transition-all duration-500">
+    <header className="fixed top-0 left-0 w-full bg-[#030014]/30 backdrop-blur-md px-6 py-4 z-50 shadow-2xl border-b border-white/10 transition-all duration-500">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         {/* Site Name */}
-        <h1 className="text-xl font-bold text-white hover:text-primary transition-colors duration-300 cursor-pointer">
+        <h1 className="text-xl font-bold text-white hover:text-cyan transition-colors duration-500 cursor-pointer">
           {firstName}
         </h1>
 
@@ -50,13 +50,12 @@ const Header = ({ activeSection }) => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className={`relative font-bold transition-all duration-300 transform hover:scale-110 ${
-                  isActive ? "text-primary" : "text-white"
-                } hover:text-primary`}
+                className={`relative font-bold transition-all duration-500 transform hover:scale-110 ${isActive ? "text-cyan" : "text-white"
+                  } hover:text-cyan`}
               >
                 {item}
                 {isActive && (
-                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary animate-pulse" />
+                  <div className="absolute -bottom-1 left-0 w-full h-0.5 bg-cyan animate-pulse" />
                 )}
               </a>
             );
@@ -72,7 +71,7 @@ const Header = ({ activeSection }) => {
               key={item}
               href={`#${item.toLowerCase()}`}
               onClick={() => setMenuOpen(false)}
-              className="block text-white font-semibold py-2 hover:text-primary transition"
+              className="block text-white font-semibold py-2 hover:text-cyan transition-all duration-500"
             >
               {item}
             </a>

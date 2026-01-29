@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../data/profile.json"; 
+import profile from "../data/profile.json";
 
 const Footer = () => {
   // Get current year dynamically
@@ -10,9 +10,9 @@ const Footer = () => {
   const text = profile?.footer?.text || "All rights reserved.";
 
   return (
-    <footer className="bg-black/90 backdrop-blur-md border-t border-gray-800 text-gray-400 text-center py-6 px-4 shadow-inner z-50">
+    <footer className="/90 backdrop-blur-md border-t border-gray-800 text-gray-400 text-center py-6 px-4 shadow-inner z-50">
       {/* Footer text with hover effect on name/text */}
-      <p className="text-sm hover:text-primary transition-colors duration-300">
+      <p className="text-sm hover:text-primary transition-colors duration-500">
         © {year} {name}. {text}
       </p>
     </footer>

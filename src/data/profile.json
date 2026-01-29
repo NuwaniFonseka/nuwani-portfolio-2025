@@ -25,88 +25,128 @@
   },
   "projects": [
     {
-      "title": "EV charging station booking system",
-      "image": "/project1.png",
-      "desc": "React-based web application with authentication and API integration.",
+      "title": "Akura - Research Project",
+      "image": "/projects/project8.jpg",
+      "desc": "Ongoing Final Year Research: Dyslexia-Aware Automated Sinhala Essay Grading System. Developing the Bias-Aware Scoring Engine for Sinhala essays, focusing on model training, algorithmic bias detection, and mitigation strategies.",
+      "tech": [
+        "Python",
+        "Machine Learning",
+        "NLP",
+        "Sinhala AES",
+        "Fairness AI"
+      ],
+      "github": "https://github.com/25-26J-433-RP",
+      "demo": "https://akura-qa.vercel.app/"
+    },
+    {
+      "title": "EV Station Booking System",
+      "image": "/projects/project1.jpg",
+      "desc": "Full-stack booking platform featuring user authentication and real-time slot management. Includes a fully hosted Node.js backend API.",
+      "tech": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Deployed API"
+      ],
       "github": "https://github.com/y4-systems/ev-station-booking-system-web",
-      "demo": "https://ev-station-booking-system-web.vercel.app/login"
+      "demo": "https://ev-station-booking-system-web.vercel.app/"
     },
     {
-      "title": "Project Two",
-      "image": "/project2.jpg",
-      "desc": "MERN stack project with dashboard, analytics, and MongoDB integration.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "LeaveFlow",
+      "image": "/projects/project2.jpg",
+      "desc": "Full-stack Leave Management System with role-based access, audit logging, and automated workflows.",
+      "tech": [
+        "React",
+        ".NET Core",
+        "Supabase",
+        "PostgreSQL",
+        "JWT"
+      ],
+      "github": "https://github.com/NuwaniFonseka/leaveflow-dotnet-api",
+      "demo": "https://leaveflow-dotnet-api.vercel.app/"
     },
     {
-      "title": "Project Three",
-      "image": "/project3.png",
-      "desc": "Mobile-first Flutter application with Firebase backend and push notifications.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "FoodFlix",
+      "image": "/projects/project3.jpg",
+      "desc": "Scalable food delivery platform built with Microservices, Docker, and Kubernetes. Features real-time ordering, payments, and notifications.",
+      "tech": [
+        "Microservices",
+        "Node.js",
+        "Kubernetes",
+        "Docker",
+        "MongoDB",
+        "Stripe"
+      ],
+      "github": "https://github.com/NuwaniFonseka/FoodFlix",
+      "demo": ""
     },
     {
-      "title": "Project Four",
-      "image": "/project2.jpg",
-      "desc": "E-commerce Flutter app with Firebase backend and secure payments.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "Race Master",
+      "image": "/projects/project4.png",
+      "desc": "Single-player Android arcade racer featuring 3-lane obstacle dodging, high-score tracking, and MVVM architecture.",
+      "tech": [
+        "Android",
+        "Kotlin",
+        "MVVM",
+        "SharedPrefs"
+      ],
+      "github": "https://github.com/NuwaniFonseka/car_game",
+      "demo": ""
     },
     {
-      "title": "Project Five",
-      "image": "/project3.png",
-      "desc": "Task manager Flutter app with push notifications and offline support.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "Donate Path",
+      "image": "/projects/project5.jpg",
+      "desc": "Charity and donation mobile platform built with Flutter and Firebase, facilitating seamless contributions and updates.",
+      "tech": [
+        "Flutter",
+        "Firebase",
+        "Android"
+      ],
+      "github": "https://github.com/NuwaniFonseka/Donate-Path_Charity-Donation-Mobile-Application",
+      "demo": ""
     },
     {
-      "title": "Project Six",
-      "image": "/project1.png",
-      "desc": "Portfolio website built with React and Tailwind CSS.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "Shopping Eye",
+      "image": "/projects/project6.jpg",
+      "desc": "Smart shopping mall navigation system featuring interactive 3D maps and a personal AI chatbot assistant.",
+      "tech": [
+        "MERN Stack",
+        "Three.js",
+        "3D Map"
+      ],
+      "github": "https://github.com/NuwaniFonseka/Shopping-Eye-Extended_Shopping-Mall-Application",
+      "demo": ""
     },
     {
-      "title": "Project Seven",
-      "image": "/project2.jpg",
-      "desc": "Blog platform built with Next.js and Markdown integration.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "title": "Zero Waste",
+      "image": "/projects/project7.jpg",
+      "desc": "Smart garbage management system with route scheduling and QR-based waste collection tracking.",
+      "tech": [
+        "MERN Stack",
+        "QR Scanning",
+        "Route Scheduling"
+      ],
+      "github": "https://github.com/NuwaniFonseka/Zero-Waste_Garbage-Management-System",
+      "demo": ""
+    }
+  ],
+  "stack": [
+    {
+      "category": "Languages",
+      "items": "JavaScript, Java, Kotlin, SQL, HTML/CSS"
     },
     {
-      "title": "Project Eight",
-      "image": "/project3.png",
-      "desc": "Chat application using React, Node.js, and WebSocket.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "category": "Frontend Development",
+      "items": "React.js, Tailwind CSS, Vite"
     },
     {
-      "title": "Project Nine",
-      "image": "/project1.jpg",
-      "desc": "Weather forecast app with real-time API integration.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "category": "Backend Development",
+      "items": "Node.js, Express.js"
     },
     {
-      "title": "Project Ten",
-      "image": "/project2.jpg",
-      "desc": "Social media app prototype with user authentication and chat.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
-    },
-    {
-      "title": "Project Eleven",
-      "image": "/project3.png",
-      "desc": "Fitness tracking app with charts, goals, and reminders.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
-    },
-    {
-      "title": "Project Twelve",
-      "image": "/project1.jpg",
-      "desc": "Travel booking web app with maps and itinerary planner.",
-      "github": "https://github.com/yourusername/weather-app",
-      "demo": "https://your-demo-link.com"
+      "category": "Databases",
+      "items": "MongoDB, MySQL"
     }
   ],
   "skills": [
@@ -124,55 +164,52 @@
   ],
   "activities": [
     {
-      "icon": "🏢",
-      "title": "IFS Industry Visit",
-      "desc": "Industry visit to IFS R&D International, Colombo.",
-      "images": [
-        "/events/ifs1.jpg",
-        "/events/ifs2.jpg",
-        "/events/ifs3.jpg",
-        "/events/IFS.png",
-        "/events/ifs4.jpg",
-        "/events/ifs5.jpg"
-      ]
+      "title": "Batch Representative",
+      "desc": "Serving as the batch representative from Year 1 to present, bridging the gap between students and faculty while organizing batch-wide events.",
+      "images": []
     },
     {
-      "icon": "💡",
-      "title": "Perituza Workshop",
-      "desc": "Workshop on innovation, careers, digital transformation.",
-      "images": [
-        "/events/perituza1.jpg",
-        "/events/perituza2.jpg",
-        "/events/perituza3.jpg"
-      ]
-    },
-    {
-      "icon": "🚀",
-      "title": "Postman GenAI + API Tour 2025",
-      "desc": "Explored modern API innovation with Postman.",
-      "images": [
-        "/events/postman1.jpeg",
-        "/events/postman2.jpeg",
-        "/events/postman3.png",
-        "/events/postman4.png"
-      ]
+      "title": "Member - Women in FOSS",
+      "desc": "Contributed to open source (Portfolio Template), helped organize the Bashaway competition, and developed the official Women in FOSS website.",
+      "link": "https://github.com/NuwaniFonseka/portfolio-template",
+      "images": []
     }
   ],
   "certifications": [
     {
-      "title": "Java (Basic) – HackerRank",
-      "image": "/sample_cert.jpg",
-      "file": "/sample_cert.jpg"
+      "title": "Postman API Fundamentals Student Expert",
+      "image": "/certifications/Postmon badge.jpg",
+      "file": "/certifications/Postmon badge.jpg"
     },
     {
-      "title": "JavaScript (Basic) – HackerRank",
-      "image": "/sample_cert.jpg",
-      "file": "/sample_cert.jpg"
+      "title": "Introduction to Generative AI",
+      "image": "/certifications/Intro to Gen AI.jpg",
+      "file": "/certifications/Intro to Gen AI.jpg"
     },
     {
-      "title": "UX Design – Google (Coursera)",
+      "title": "AI/ML Engineer - Stage 1",
+      "image": "/certifications/AI ML Engineer Stage 1.png",
+      "file": "/certifications/AI ML Engineer Stage 1.png"
+    },
+    {
+      "title": "Research Methodology",
+      "image": "/certifications/research methodology.jpg",
+      "file": "/certifications/research methodology.jpg"
+    },
+    {
+      "title": "Developing Front-End Apps with React",
       "image": "/sample_cert.jpg",
-      "file": "/sample_cert.jpg"
+      "file": "/certifications/Developing frontend apps using React.pdf"
+    },
+    {
+      "title": "Foundations of User Experience (UX) Design",
+      "image": "/sample_cert.jpg",
+      "file": "/certifications/Foundations of UX.pdf"
+    },
+    {
+      "title": "International English Language Testing System (IELTS)",
+      "image": "/sample_cert.jpg",
+      "file": "/certifications/Ielts certificate.pdf"
     }
   ],
   "contact": {

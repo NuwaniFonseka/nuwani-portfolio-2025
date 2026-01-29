@@ -17,7 +17,7 @@ const ModalGallery = ({ images, title, onClose }) => {
               key={idx}
               src={src}
               alt={`Event ${idx + 1}`}
-              className="rounded shadow hover:scale-105 transition transform duration-300"
+              className="rounded shadow hover:scale-105 transition transform duration-500"
             />
           ))}
         </div>
