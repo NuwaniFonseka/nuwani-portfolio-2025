@@ -60,7 +60,7 @@ const Projects = () => {
         {currentProjects.map((project, idx) => (
           <div
             key={idx}
-            className="group relative h-auto md:h-[400px] overflow-hidden rounded-2xl shadow-xl border border-white/10 bg-[#0a0a16] flex flex-col md:block"
+            className="group relative h-auto md:h-[400px] overflow-hidden rounded-2xl shadow-xl border border-white/10 bg-white/5 backdrop-blur-xl flex flex-col md:block"
           >
             {/* Background Image - Absolute on Desktop, Relative on Mobile */}
             <div className="relative h-48 md:absolute md:inset-0 md:h-full overflow-hidden">
