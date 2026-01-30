@@ -1,9 +1,9 @@
 {
   "name": "Nuwani Fonseka ",
   "bio": "Software Engineering undergraduate",
-  "resume": "/Nuwani_cv.pdf",
+  "resume": "/Nuwani_Fonseka.pdf",
   "about": {
-    "headline": "I'm a final year Software Engineering undergraduate who enjoys building clean, user-focused digital solutions. I’m adaptable, detail-driven, and always eager to learn and improve.",
+    "headline": "Detail-oriented and self-driven undergraduate, Known for strong attention to detail, adaptability, and initiative in both academic and production environments.",
     "highlights": [
       {
         "title": "Current Role",
@@ -129,24 +129,86 @@
       ],
       "github": "https://github.com/NuwaniFonseka/Zero-Waste_Garbage-Management-System",
       "demo": ""
+    },
+    {
+      "title": "Countries Explorer",
+      "image": "/projects/project9.jpg",
+      "desc": "Responsive React.js application consuming the REST Countries API. Implemented dynamic search, filtering, and detailed country views. Includes unit tests with Jest.",
+      "tech": [
+        "React.js",
+        "Tailwind CSS"
+      ],
+      "github": "https://github.com/NuwaniFonseka/countries-explorer",
+      "demo": "https://countries-explorer-three.vercel.app/"
+    },
+    {
+      "title": "Finance Tracker API",
+      "image": "/projects/project10.jpg",
+      "desc": "Developed a secure RESTful API for personal finance tracking with role-based access. Implemented income, expense, budgeting, and recurring transaction features with JWT authentication.",
+      "tech": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT"
+      ],
+      "github": "",
+      "demo": ""
+    },
+    {
+      "title": "Customizable Portfolio Template",
+      "image": "/projects/project10.png",
+      "desc": "Women in FOSS Developer Assignment: Developed an open-source, fully customizable portfolio template aimed at students. Designed modular sections configurable through structured data. Implemented responsive design, dark theme support, and EmailJS-based contact integration.",
+      "tech": [
+        "React.js",
+        "Tailwind CSS",
+        "Vite",
+        "EmailJS"
+      ],
+      "github": "https://github.com/NuwaniFonseka/Portfolio-Template",
+      "demo": "https://portfolio-template-cyan-eight.vercel.app/"
+    },
+    {
+      "title": "Women in FOSS Official Website",
+      "image": "/vite.svg",
+      "desc": "Open Source Contribution (Ongoing): Contributing to the official Women in FOSS website by developing and refining the Home section. Built using Next.js (App Router) with reusable components and modern layout practices.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Git"
+      ],
+      "github": "https://github.com/NuwaniFonseka/sliitwif",
+      "demo": ""
     }
   ],
   "stack": [
     {
-      "category": "Languages",
-      "items": "JavaScript, Java, Kotlin, SQL, HTML/CSS"
+      "category": "Backend & Cloud",
+      "items": "ASP.NET Core (.NET 8), Node.js, Express.js, RESTful API Development, JWT Authentication, Docker, Kubernetes, Google Cloud Run"
     },
     {
-      "category": "Frontend Development",
-      "items": "React.js, Tailwind CSS, Vite"
-    },
-    {
-      "category": "Backend Development",
-      "items": "Node.js, Express.js"
+      "category": "Frontend",
+      "items": "React.js, Next.js, Tailwind CSS, HTML, CSS, Vite"
     },
     {
       "category": "Databases",
-      "items": "MongoDB, MySQL"
+      "items": "PostgreSQL (Supabase), MongoDB, MySQL, SQLite, Firebase"
+    },
+    {
+      "category": "DevOps & CI/CD",
+      "items": "Docker, Kubernetes, GitHub Actions, Cloud Deployment"
+    },
+    {
+      "category": "Testing & Quality",
+      "items": "JUnit, Selenium, Manual QA & UI Testing"
+    },
+    {
+      "category": "Programming & Research",
+      "items": "Java, C#, Python (Machine Learning, NLP), Fairness-Aware AI"
+    },
+    {
+      "category": "Tools & Version Control",
+      "items": "Git, GitHub, Visual Studio Code, Visual Studio, Android Studio"
     }
   ],
   "skills": [

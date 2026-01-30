@@ -83,7 +83,7 @@ const Projects = () => {
 
               {/* Description & Tags - Visible on Mobile, Fades in on Desktop */}
               <div className="opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all duration-500 delay-100 z-20 
-                            relative md:absolute md:inset-x-6 md:top-1/2 md:-translate-y-1/2 md:group-hover:translate-y-[-50%] transform">
+                            relative md:absolute md:inset-x-6 md:top-[58%] md:-translate-y-1/2 md:group-hover:translate-y-[-50%] transform">
                 <p className="text-gray-300 md:text-gray-100 text-sm leading-relaxed drop-shadow-lg font-medium">
                   {project.desc}
                 </p>

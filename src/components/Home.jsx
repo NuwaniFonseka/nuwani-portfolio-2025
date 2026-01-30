@@ -28,10 +28,11 @@ const Home = ({ isVisible }) => {
 
             <div className="flex flex-wrap gap-4" data-cursor>
               <a
-                href="#contact"
+                href="/Nuwani_Fonseka.pdf"
+                download
                 className="px-6 py-3 rounded-full bg-white/10 backdrop-blur-md border border-cyan/30 font-semibold shadow-lg hover:shadow-cyan/50 transition-all transform hover:-translate-y-1"
               >
-                <span className="gradient-text">Get In Touch</span>
+                <span className="gradient-text">Download CV</span>
               </a>
               <a
                 href="#projects"
