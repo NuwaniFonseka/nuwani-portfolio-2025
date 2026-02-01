@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import profile from "../data/profile.json";
 
 const Header = ({ activeSection }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const firstName = "Portfolio";
   const navItems = ["Home", "About", "Projects", "Skills", "Contact"];
+  const resumeLink = profile.resume;
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#030014]/30 backdrop-blur-md px-6 py-4 z-50 shadow-2xl border-b border-white/10 transition-all duration-500">
@@ -60,6 +62,15 @@ const Header = ({ activeSection }) => {
               </a>
             );
           })}
+          {/* Resume Link */}
+          <a
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-white hover:text-cyan transition-all duration-500 transform hover:scale-110"
+          >
+            Resume
+          </a>
         </nav>
       </div>
 
@@ -76,6 +87,16 @@ const Header = ({ activeSection }) => {
               {item}
             </a>
           ))}
+          {/* Resume Link for Mobile */}
+          <a
+            href={resumeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMenuOpen(false)}
+            className="block text-white font-semibold py-2 hover:text-cyan transition-all duration-500"
+          >
+            Resume
+          </a>
         </div>
       )}
     </header>
