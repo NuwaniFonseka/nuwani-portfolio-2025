@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import TechActivities from "./components/TechActivities";
 import Certifications from "./components/Certifications";
 import CustomCursor from "./components/CustomCursor";
+import Experience from "./components/Experience";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,6 +62,7 @@ const App = () => {
         <Header activeSection={activeSection} />
         <Home isVisible={isVisible} />
         <About />
+        <Experience />
         <Projects />
         <Skills />
         <TechActivities />

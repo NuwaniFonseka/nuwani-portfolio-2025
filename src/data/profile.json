@@ -7,7 +7,7 @@
     "highlights": [
       {
         "title": "Current Role",
-        "content": "Software Developer Intern"
+        "content": "Software Developer Intern\n(7 Months Experience)"
       },
       {
         "title": "Education",
@@ -23,6 +23,23 @@
       }
     ]
   },
+  "experience": [
+    {
+      "company": "Kode Tech (Pvt) Ltd",
+      "role": "Software Engineer Intern",
+      "location": "Sri Lanka",
+      "duration": "Jul 2024 - Feb 2025",
+      "type": "Full-time, Hybrid",
+      "highlights": [
+        "Worked in a fast-paced, client-driven environment delivering production-ready features across multiple real-world projects.",
+        "Contributed to 11+ client projects across e-commerce and banking domains with hands-on full-stack exposure.",
+        "Backend: Developed user management systems using Node.js and Laravel; implemented CRUD operations and database migrations.",
+        "Frontend: Built responsive interfaces using HTML, CSS, and JavaScript for WordPress, Shopify, and custom apps.",
+        "Quality Assurance: Conducted functional, UI/UX, and exploratory testing ensuring release readiness.",
+        "Data Integration: Migrated a multi-channel banking chatbot database between SQL and PostgreSQL."
+      ]
+    }
+  ],
   "projects": [
     {
       "title": "Akura - Research Project",

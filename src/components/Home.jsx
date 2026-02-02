@@ -49,34 +49,47 @@ const Home = ({ isVisible }) => {
           <div className="relative rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-2xl p-6 shadow-glass animate-float hover-glow glow-pulse">
             <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-[32px]" />
             <div className="relative space-y-6">
-              {/* Card Header */}
-              <div>
-                <p className="text-sm uppercase tracking-[0.4em] text-slate-300">
-                  STUDENT DEVELOPER
-                </p>
-                <h3 className="text-2xl font-display mt-2 animate-letters">
-                  {/* Split text into individual letters for animation */}
-                  {"Building clean, user-focused solutions.".split("").map((char, idx) => (
-                    <span key={idx} className={char === " " ? "space" : ""}>
-                      {char === " " ? "\u00A0" : char}
-                    </span>
-                  ))}
-                </h3>
+              {/* Card Header with Adjusted Avatar */}
+              <div className="flex items-center justify-between gap-6">
+                <div className="flex-1">
+                  <p className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-slate-300">
+                    SOFTWARE ENGINEER UNDERGRADUATE
+                  </p>
+                  <h3 className="text-xl sm:text-2xl font-display mt-2 animate-letters leading-tight">
+                    {/* Split text into individual letters for animation */}
+                    {"Explore my professional journey below.".split("").map((char, idx) => (
+                      <span key={idx} className={char === " " ? "space" : ""}>
+                        {char === " " ? "\u00A0" : char}
+                      </span>
+                    ))}
+                  </h3>
+                </div>
+
+                {/* Refined Avatar with Premium Styling */}
+                <div className="relative group shrink-0">
+                  {/* Outer Glow Ring */}
+                  <div className="absolute -inset-1 bg-gradient-to-tr from-cyan/40 to-blue/40 rounded-full blur-sm opacity-75 group-hover:opacity-100 transition duration-500 animate-pulse" />
+
+                  {/* Image Container */}
+                  <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-white/30 overflow-hidden shadow-2xl">
+                    <img
+                      src="/girl9.jpg"
+                      alt="Profile"
+                      className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
+                    />
+                  </div>
+                </div>
               </div>
 
               {/* Card Details */}
-              <div className="grid grid-cols-2 gap-4 text-sm text-slate-300">
-                <div className="transition-all duration-700 hover:scale-105">
-                  <p className="text-xs uppercase tracking-[0.4em] text-cyan">
-                    FOCUS
+              <div className="space-y-4 text-sm text-slate-300">
+                <div className="transition-all duration-700 hover:scale-[1.02]">
+                  <p className="text-xs uppercase tracking-[0.4em] text-cyan mb-1">
+                    CORE FOCUS
                   </p>
-                  <p>Full-stack development</p>
-                </div>
-                <div className="transition-all duration-700 hover:scale-105">
-                  <p className="text-xs uppercase tracking-[0.4em] text-cyan">
-                    STACK
+                  <p className="leading-relaxed text-slate-200">
+                    Full-stack Development with an interest in <span className="text-white font-medium">DevOps and AI</span>.
                   </p>
-                  <p>React · Node · Java</p>
                 </div>
               </div>
             </div>
@@ -86,7 +99,7 @@ const Home = ({ isVisible }) => {
         {/* Stats Cards - scroll-triggered stagger animation */}
         <div
           ref={statsRef}
-          className={`grid grid-cols-2 md:grid-cols-4 gap-4 mt-16 stagger-children ${statsVisible ? 'visible' : ''}`}
+          className={`grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 stagger-children ${statsVisible ? 'visible' : ''}`}
         >
           <div className="rounded-[24px] border border-white/10 bg-white/5 backdrop-blur-2xl p-6 hover-lift-smooth hover-glow hover-tilt">
             <p className="text-sm uppercase tracking-[0.4em] text-slate-300 mb-2">
@@ -98,19 +111,13 @@ const Home = ({ isVisible }) => {
             <p className="text-sm uppercase tracking-[0.4em] text-slate-300 mb-2">
               EXPERIENCE
             </p>
-            <p className="text-3xl font-display">Intern</p>
+            <p className="text-3xl font-display">7 Months</p>
           </div>
           <div className="rounded-[24px] border border-white/10 bg-white/5 backdrop-blur-2xl p-6 hover-lift-smooth hover-glow hover-tilt">
             <p className="text-sm uppercase tracking-[0.4em] text-slate-300 mb-2">
               PROJECTS
             </p>
-            <p className="text-3xl font-display">10+</p>
-          </div>
-          <div className="rounded-[24px] border border-white/10 bg-white/5 backdrop-blur-2xl p-6 hover-lift-smooth hover-glow hover-tilt">
-            <p className="text-sm uppercase tracking-[0.4em] text-slate-300 mb-2">
-              LEARNING
-            </p>
-            <p className="text-3xl font-display">Always</p>
+            <p className="text-3xl font-display">{profile.projects.length}+</p>
           </div>
         </div>
       </div>

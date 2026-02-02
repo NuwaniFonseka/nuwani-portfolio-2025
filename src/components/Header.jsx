@@ -4,7 +4,7 @@ import profile from "../data/profile.json";
 const Header = ({ activeSection }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const firstName = "Portfolio";
-  const navItems = ["Home", "About", "Projects", "Skills", "Contact"];
+  const navItems = ["Home", "About", "Experience", "Projects", "Skills", "Contact"];
   const resumeLink = profile.resume;
 
   return (
