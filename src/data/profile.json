@@ -58,13 +58,15 @@
     {
       "title": "EV Station Booking System",
       "image": "/projects/project1.jpg",
-      "desc": "Full-stack booking platform featuring user authentication and real-time slot management. Includes a fully hosted Node.js backend API.",
+      "desc": "Enterprise-level EV booking ecosystem featuring an ASP.NET Core central API. Integrates a React management dashboard and a Kotlin-based Android app with real-time slot synchronization, JWT security, and offline-ready SQLite caching.",
       "tech": [
         "React",
-        "Node.js",
+        "ASP.NET Core",
         "MongoDB",
-        "Express",
-        "Deployed API"
+        "Kotlin / Android",
+        "C#",
+        "JWT Auth",
+        "SQLite"
       ],
       "github": "https://github.com/y4-systems/ev-station-booking-system-web",
       "demo": "https://ev-station-booking-system-web.vercel.app/"
@@ -224,22 +226,26 @@
       "items": "Java, C#, Python (Machine Learning, NLP), Fairness-Aware AI"
     },
     {
+      "category": "Mobile Development",
+      "items": "Kotlin, Android Studio, SQLite (Offline Caching), MVVM Architecture"
+    },
+    {
       "category": "Tools & Version Control",
-      "items": "Git, GitHub, Visual Studio Code, Visual Studio, Android Studio"
+      "items": "Git, GitHub, Visual Studio Code, Visual Studio, Postman"
     }
   ],
   "skills": [
     "React.js",
+    "ASP.NET Core",
+    "C#",
     "Tailwind CSS",
-    "HTML / CSS",
-    "Vite",
     "Node.js",
-    "Express.js",
     "MongoDB",
     "SQL / MySQL",
     "JavaScript",
-    "Java",
-    "Kotlin"
+    "Kotlin",
+    "Python",
+    "Git"
   ],
   "activities": [
     {
